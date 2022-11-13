@@ -5,7 +5,6 @@ import { HiOutlineMenu } from "react-icons/hi";
 
 import { logo } from "../assets";
 import { links } from "../assets/constants";
-import { retry } from "@reduxjs/toolkit/dist/query";
 
 const NavLinks = ({ handleClick }) => (
   <div className="mt-10">
@@ -19,7 +18,7 @@ const NavLinks = ({ handleClick }) => (
         <item.icon className="w-6 h-6 mr-2" />
         {item.name}
       </NavLink>
-    ))}{" "}
+    ))}
   </div>
 );
 
