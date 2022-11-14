@@ -14,7 +14,6 @@ const Discover = () => {
 
   if (isFetching) return <Loader title="Loading Songs..." />;
   if (error) return <Error />;
-  //   console.log(data);
 
   return (
     <div className="flex flex-col">
